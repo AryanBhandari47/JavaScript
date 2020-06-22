@@ -12,19 +12,24 @@
 </head>
 
 <body>
-    <div class="container mt-3 mb-5 ">
+    <div class="container canvasContainer mt-3 mb-5 ">
         <h2 class="mb-4 text-center">Convert to Grayscale</h2>
         <canvas id="cvs" class="canvas w-50 mx-auto ">
         
         </canvas>
     </div>
 
+    <div class="container-fluid">
+        <div class="uploadFile ">
+            <input class="btn " type="file" accept="image/*" multiple="false" id="fileInput" onchange="upload()">
+            <button class="btn btn-dark " id="grayScaleButton" onclick="makeGray()"> Make GrayScale</button>
 
+            <button class="btn btn-success ml-2" onclick="download()">Download</button>
 
-    <div class="uploadFile ">
-        <input class="btn " type="file" accept="image/*" multiple="false" id="fileInput" onchange="upload()">
-        <button class="btn btn-dark " id="grayScaleButton" onclick="makeGray()"> Make GrayScale</button>
+        </div>
+
     </div>
+
 
 
 

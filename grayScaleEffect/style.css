@@ -1,4 +1,4 @@
-.container {
+.canvasContainer {
     align-items: center;
     justify-content: center;
 }
@@ -20,15 +20,12 @@
     .canvas {
         object-fit: contain;
         width: 100VW !IMPORTANT;
-        height: 80VH;
+        height: 60VH !important;
         TRANSFORM: TRANSLATEX(0);
     }
     .uploadFile {
-        display: flex;
-        align-items: left;
-        justify-content: left;
-    }
-    #grayScaleButton {
-        margin-left: 0.8rem;
+        display: contents;
+        align-items: center;
+        justify-content: center;
     }
 }
