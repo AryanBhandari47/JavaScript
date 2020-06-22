@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrayScale</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container mt-3 mb-5 ">
+        <h2 class="mb-4 text-center">Convert to Grayscale</h2>
+        <canvas id="cvs" class="canvas w-50 mx-auto ">
+        
+        </canvas>
+    </div>
+
+
+
+    <div class="uploadFile ">
+        <input class="btn " type="file" accept="image/*" multiple="false" id="fileInput" onchange="upload()">
+        <button class="btn btn-dark " id="grayScaleButton" onclick="makeGray()"> Make GrayScale</button>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Scripts  -->
+    <script src="app.js">
+    </script>
+    <script src="simpleImage.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
